@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: sans-serif;
+}
+body{
+    background-color: #001;
+    display: flex;
+}
+.box-img{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  border: 2px solid #29009a;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu{
+    background-color: #123;
+    width: 60px;
+    height: 100vh;
+    overflow: hidden;
+    transition: 0.5s;
+}
+ul{
+    position: relative;
+    height: 95%;
+}
+ul li { 
+    margin: 5px;
+    list-style: none;
+   
+}
+ul li a{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    padding: 5px 15px;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+ul li a:hover,.active{
+background-color: #ffffff55;
+}
+.log a{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 30px;
+    background-color: red;
+}
+.menu:hover{
+    width: 260px;
+}
+.content{
+    width: 100%;
+}
+.info{
+    background-color: #29009a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.info-icon i{
+    font-size: 20px;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   gap:10px;
+ margin: 0 10px;
+  
+}
+.box{
+    width: 150px;
+    height: 150px;
+   background-color: #123;
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-around;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box i{
+    font-size: 30px;
+}
+.box p{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.box:hover{
+    background-color: #ffffff55;
+}
+table{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-spacing: 8px;
+}
+th{
+    background-color: #29009a;
+    padding: 8px;
+    border-radius: 5px;
+}
+td{
+    background-color: #ffffff55;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.black{
+    background: #000;
+    color: white;
+
+}
+.table{
+    color: #000;
+}
+.boxx{
+    background-color: #001;
+}
+.mode{
+    color: #000;
+}
